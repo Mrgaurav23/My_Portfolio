@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowDown } from "lucide-react";
+import PortfolioImage from "../assets/portfolio_image__.png"
 
 export const HeroSection = () => {
   return (
@@ -48,7 +49,7 @@ export const HeroSection = () => {
               {/* Profile Image in circular frame */}
               <div className="relative z-10 w-full h-full rounded-full p-1.5 bg-gradient-to-b from-white/20 via-white/5 to-transparent backdrop-blur-sm shadow-2xl">
                 <img
-                  src="src\assets\portfolio_image__.png"
+                  src={PortfolioImage}
                   alt="Gaurav Sisodiya"
                   className="w-full h-full object-cover rounded-full border border-white/10"
                 />

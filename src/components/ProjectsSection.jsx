@@ -1,11 +1,14 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import VidiaImage from '../assets/Vidia.png'
+import hyperblogImage from '../assets/hyperblog.png'
+import duoStudioImage from '../assets/duoStudio.png'
 
 const projects = [
   {
     id: 1,
     title: "VIDIA: VIDEO STREAMING PLATFORM",
     description:"Video Sharing platform with the World with many Features",
-    image: "src/assets/Vidia.png",
+    image: VidiaImage,
     tags: ["JavaScript","React","Redux","Tailwind CSS","Express","MongoDB","NodeJs"],
     demoUrl: "https://vidia-frontend.vercel.app/",
     githubUrl: "https://github.com/Mrgaurav23/VIDIA_FRONTEND",
@@ -14,7 +17,7 @@ const projects = [
     id: 2,
     title: "HYPERBLOG: A BLOG SHARING PLATFORM",
     description: "Here you share your thought with world",
-    image: "src/assets/hyperblog.png",
+    image: hyperblogImage,
     tags: ["React", "Tailwind CSS", "JS" , "AppWrite" ],
     demoUrl: "https://hyper-blog-beta.vercel.app/",
     githubUrl: "https://github.com/Mrgaurav23/HyperBlog",
@@ -23,7 +26,7 @@ const projects = [
     id: 3,
     title: "Duo-Studio Website",
     description:"Frontend website that shows animation",
-    image: "src/assets/duoStudio.png",
+    image: duoStudioImage,
     tags: ["HTML", "CSS", "JS" , "GSAP"],
     demoUrl: "https://myduostudioonline.netlify.app/",
     githubUrl: "https://github.com/Mrgaurav23/Duo-Studio",
