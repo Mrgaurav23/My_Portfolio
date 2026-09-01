@@ -11,6 +11,7 @@ const skills = [
   { name: 'Express', level:60, category:"backend" },
   { name: 'MongoDB', level:60, category:"database"},
   {name: 'Nodejs', level:50, category:"backend"},
+  {name: 'Postman', level:70, category:"backend"},
   // Tools
   { name: "Git/GitHub", level: 70, category: "tools" },
   { name: "VS Code", level: 80, category: "tools" },
@@ -18,10 +19,10 @@ const skills = [
   { name: "Vercel", level:80, category: "tools"}
 ];
 
-const categories = ["all", "frontend", "backend", "database", "tools",]
+const categories = ["frontend", "backend", "database", "tools",]
 
 export const SkillsSection = () => {
-  const [activeCategory, setActiveCategory] = useState("all");
+  const [activeCategory, setActiveCategory] = useState("frontend");
 
   const filteredSkills = skills.filter(
     (skill) => activeCategory === "all" || skill.category === activeCategory
