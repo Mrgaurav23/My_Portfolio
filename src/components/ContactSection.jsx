@@ -57,7 +57,7 @@ export const ContactSection = () => {
                     href="mailto:gauravsinghsisodiya964@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    gauravsinghsisodiya964@gmail.com
+                    gauravsinghsisodiya962@gmail.com
                   </a>
                 </div>
               </div>
@@ -91,7 +91,7 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/gaurav-sisodiya-102139307/" target="_blank">
                   <Linkedin />
                 </a>
                 <a href="#" target="_blank">

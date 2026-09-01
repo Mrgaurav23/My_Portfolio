@@ -3,32 +3,30 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "InnoTech Business System",
-    description: "A Website For Student That Helps Student For Thier Study",
-    image: "/projects/project1.png",
-    tags: ["HTML", "CSS", "JS" , "GSAP" ],
-    demoUrl: "#",
-    githubUrl: "https://github.com/Mrgaurav23/InnoTech-Business-System",
+    title: "VIDIA: VIDEO STREAMING PLATFORM",
+    description:"Video Sharing platform with the World with many Features",
+    image: "src/assets/Vidia.png",
+    tags: ["JavaScript","React","Redux","Tailwind CSS","Express","MongoDB","NodeJs"],
+    demoUrl: "https://vidia-frontend.vercel.app/",
+    githubUrl: "https://github.com/Mrgaurav23/VIDIA_FRONTEND",
   },
   {
     id: 2,
-    title: "Todo App",
-    description:
-      "rganize your tasks, manage your day, and achieve what matters.",
-    image: "/projects/project2.png",
-    tags: ["React","Tailwind CSS"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "HYPERBLOG: A BLOG SHARING PLATFORM",
+    description: "Here you share your thought with world",
+    image: "src/assets/hyperblog.png",
+    tags: ["React", "Tailwind CSS", "JS" , "AppWrite" ],
+    demoUrl: "https://hyper-blog-beta.vercel.app/",
+    githubUrl: "https://github.com/Mrgaurav23/HyperBlog",
   },
   {
     id: 3,
     title: "Duo-Studio Website",
-    description:
-      "rganize your tasks, manage your day, and achieve what matters.",
-    image: "/projects/project3.png",
+    description:"Frontend website that shows animation",
+    image: "src/assets/duoStudio.png",
     tags: ["HTML", "CSS", "JS" , "GSAP"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://myduostudioonline.netlify.app/",
+    githubUrl: "https://github.com/Mrgaurav23/Duo-Studio",
   },
 ];
 
@@ -56,7 +54,7 @@ export const ProjectsSection = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
 
